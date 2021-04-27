@@ -7,6 +7,7 @@
     /* border: 1px solid red; */
 }
 
+/* Styling for main Nav container */
 nav {
     background-color: rgb(159, 197, 248);
     height: 100px;
@@ -15,10 +16,12 @@ nav {
     justify-content: center;
 }
 
+/* Styling for side divs */
 .side {
     flex: 1;
 }
 
+/* Styling for DojoWeather logo text */
 .dojoweather {
     flex: 2;
     font-size: 3rem;
@@ -26,26 +29,31 @@ nav {
     font-family: 'Freckle Face', cursive;
 }
 
+/* Styling for city links */
 ul {
     flex: 2;
     list-style: none;
     display: flex;
 }
 
+/* Styling for city links */
 ul li {
     margin: 5vw;
     color: white;
     font-size: 2rem;
 }
 
+/* Styling for main container */
 main {
     display: flex;
 }
 
+/* Styling for main content container */
 .mainContent {
     flex: 4;
 }
 
+/* Styling for upper section of the main content */
 .upper {
     display: flex;
     justify-content: space-between;
@@ -54,22 +62,26 @@ main {
     align-items: center;
 }
 
+/* Styling for temperature selector */
 .selector {
     align-items: flex-end;
     font-size: 1.1rem;
 }
 
+/* Styling for current city text */
 .city {
     font-size: 2.5rem;
 }
 
+/* Styling for div containing all weather on dates div */
 .centerSection {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
 
-.todayBlock {
+/* Styling for individual divs containing weather information */
+.weatherBlock {
     background-color: rgb(238, 238, 238);
     min-height: 100%;
     width: 90%;
@@ -82,54 +94,19 @@ main {
     flex-direction: column;
 }
 
-.tomorrowBlock {
-    background-color: rgb(238, 238, 238);
-    min-height: 100%;
-    width: 90%;
-    margin-right: 20px;
-    text-align: center;
-    padding: 20px;
-    font-size: 2rem;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-.fridayBlock {
-    background-color: rgb(238, 238, 238);
-    min-height: 100%;
-    width: 90%;
-    margin-right: 20px;
-    text-align: center;
-    padding: 20px;
-    font-size: 2rem;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-.saturdayBlock {
-    background-color: rgb(238, 238, 238);
-    min-height: 100%;
-    width: 90%;
-    text-align: center;
-    padding: 20px;
-    font-size: 2rem;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
+/* Styling for weather images */
 .weatherImg {
     border-radius: 50%;
     margin-top: 20px;
 }
 
+/* Styling for text stating daily weather */
 .some {
     margin-top: 20px;
     font-size: 1.5rem;
 }
 
+/* Styling for div containing temperature texts */
 .temperatures {
     width: 100%;
     align-items: center;
@@ -137,16 +114,19 @@ main {
     margin: 30px 0;
 }
 
+/* Styling for high temperature texts */
 .highs {
     width: 100%;
     color:rgb(205, 44, 47)
 }
 
+/* Styling for low temperature texts */
 .lows {
     width: 100%;
     color: rgb(48, 123, 225);
 }
 
+/* Styling for cookie containing div */
 #cookies {
     position: fixed;
     bottom: 0px;
@@ -159,20 +139,20 @@ main {
     min-height: 100px;
 }
 
+/* Styling for cookie image */
 #cookies img {
     width: 80px;
     margin: 30px;
+    display: inline-block;
 }
 
-#cookies span {
+/* Styling for div inside of cookies div */
+#cookies div {
     display: inline-block;
     font-size: 1.3rem;
 }
 
-#cookies img {
-    display: inline-block;
-}
-
+/* Styling for cookies button */
 #cookies button {
     margin: 20px;
     width: 100px;
@@ -181,6 +161,7 @@ main {
     box-shadow: 3px 3px;
 }
 
+/* Styling for  h3 tag inside of cookie block */
 h3 {
     font-size: 2rem;
 }

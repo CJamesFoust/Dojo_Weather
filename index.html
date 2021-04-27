@@ -10,25 +10,43 @@
     
 </head>
 <body>
+    <!-- Nav containing logo and city links -->
     <nav>
+        <!-- Span created to provide spacing on the left -->
         <span class="side"> </span>
+
+        <!-- Span for DojoWeather Logo -->
          <span class="dojoweather">
              DojoWeather
          </span>
+
+         <!-- Unordered list to create city links. Onclick alert produces popup box stating the page is loading the weather report. -->
          <ul>
              <li onclick="alert('Loading Weather Report...')">Burbank</li>
              <li onclick="alert('Loading Weather Report...')">Chicago</li>
              <li onclick="alert('Loading Weather Report...')">Dallas</li>
          </ul>
+
+         <!-- Span created to provide spacing on the right -->
          <span class="side"> </span>
     </nav>
+
+    <!-- Main content container -->
     <main>
+
+        <!-- Span created to provide spacing on the left -->
         <span class="side"></span>
 
+        <!-- Main container for center content -->
         <div class="mainContent">
+
+            <!-- Div containing upper section of main content -->
             <div class="upper">
+
                 <span class="city">San Jose</span>
+
                 <div class="selector">
+
                     <span class="showTemp">show temperature in </span>
                     <select name="tempIn" id="tempIn" onchange="swap(this)">
                         <option value="F">°F</option>
@@ -38,9 +56,11 @@
                 </div>
             </div>
 
+            <!-- Div containing middle center content -->
             <div class="centerSection">
 
-                <div class="todayBlock">
+                <!-- Div containing Today weather information -->
+                <div class="weatherBlock">
                     Today
                     <img src="assets/some_rain.png" alt="Rain Image" class="weatherImg">
                     <span class="some">some rain</span>
@@ -50,7 +70,8 @@
                     </div>
                 </div>       
 
-                <div class="tomorrowBlock">
+                <!-- Div containing Tomorrow weather information -->
+                <div class="weatherBlock">
                     Tomorrow
                     <img src="assets/some_sun.png" alt="Sun Image" class="weatherImg">
                     <span class="some">some sun</span>
@@ -60,7 +81,8 @@
                     </div>
                 </div>
 
-                <div class="fridayBlock">
+                <!-- Div containing Friday weather information -->
+                <div class="weatherBlock">
                     Friday
                     <img src="assets/some_clouds.png" alt="Cloud Image" class="weatherImg">
                     <span class="some">some clouds</span>
@@ -70,7 +92,8 @@
                     </div>
                 </div>
 
-                <div class="saturdayBlock">
+                <!-- Div containing Saturday weather information -->
+                <div class="weatherBlock">
                     Saturday
                     <img src="assets/some_sun.png" alt="Sun Image" class="weatherImg">
                     <span class="some">some sun</span>
@@ -80,6 +103,7 @@
                     </div>
                 </div>
 
+                <!-- Div containing Cookie popup HTML -->
                 <div id="cookies">
                     <img src="assets/cookie.png" alt="Image of cookie">
                     <div>
