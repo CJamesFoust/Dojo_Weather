@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojo Weather</title>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Heebo&display=swap');</style>
+    
+</head>
+<body>
+    <nav>
+        <span class="side"> </span>
+         <span class="dojoweather">
+             DojoWeather
+         </span>
+         <ul>
+             <li onclick="alert('Loading Weather Report...')">Burbank</li>
+             <li onclick="alert('Loading Weather Report...')">Chicago</li>
+             <li onclick="alert('Loading Weather Report...')">Dallas</li>
+         </ul>
+         <span class="side"> </span>
+    </nav>
+    <main>
+        <span class="side"></span>
+
+        <div class="mainContent">
+            <div class="upper">
+                <span class="city">San Jose</span>
+                <div class="selector">
+                    <span class="showTemp">show temperature in </span>
+                    <select name="tempIn" id="tempIn" onchange="swap(this)">
+                        <option value="F">°F</option>
+                        <option value="C">°C</option>
+                    </select>
+                    
+                </div>
+            </div>
+
+            <div class="centerSection">
+
+                <div class="todayBlock">
+                    Today
+                    <img src="assets/some_rain.png" alt="Rain Image" class="weatherImg">
+                    <span class="some">some rain</span>
+                    <div class="temperatures">
+                        <span class="highs">75°</span>
+                        <span class="lows">65°</span>
+                    </div>
+                </div>       
+
+                <div class="tomorrowBlock">
+                    Tomorrow
+                    <img src="assets/some_sun.png" alt="Sun Image" class="weatherImg">
+                    <span class="some">some sun</span>
+                    <div class="temperatures">
+                        <span class="highs">80°</span>
+                        <span class="lows">66°</span>
+                    </div>
+                </div>
+
+                <div class="fridayBlock">
+                    Friday
+                    <img src="assets/some_clouds.png" alt="Cloud Image" class="weatherImg">
+                    <span class="some">some clouds</span>
+                    <div class="temperatures">
+                        <span class="highs">69°</span>
+                        <span class="lows">61°</span>
+                    </div>
+                </div>
+
+                <div class="saturdayBlock">
+                    Saturday
+                    <img src="assets/some_sun.png" alt="Sun Image" class="weatherImg">
+                    <span class="some">some sun</span>
+                    <div class="temperatures">
+                        <span class="highs">78°</span>
+                        <span class="lows">70°</span>
+                    </div>
+                </div>
+
+                <div id="cookies">
+                    <img src="assets/cookie.png" alt="Image of cookie">
+                    <span><h3>Stop! Cookie time</h3>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p></span>
+                    <button onclick="accept()">I Accept</button>
+                </div>
+
+            </div>
+        </div>
+
+        <span class="side"></span>
+    </main>
+</body>
+<script src="scripts.js"></script>
+</html>

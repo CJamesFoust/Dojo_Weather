@@ -1,0 +1,186 @@
+* {
+    background-color: rgb(0, 0, 0,);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Heebo', sans-serif;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+nav {
+    background-color: rgb(159, 197, 248);
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.side {
+    flex: 1;
+}
+
+.dojoweather {
+    flex: 2;
+    font-size: 3rem;
+    color: white;
+    font-family: 'Freckle Face', cursive;
+}
+
+ul {
+    flex: 2;
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin: 5vw;
+    color: white;
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+}
+
+.mainContent {
+    flex: 4;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    min-height: 150px;
+    align-items: center;
+}
+
+.selector {
+    align-items: flex-end;
+    font-size: 1.1rem;
+}
+
+.city {
+    font-size: 2.5rem;
+}
+
+.centerSection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.todayBlock {
+    background-color: rgb(238, 238, 238);
+    min-height: 100%;
+    width: 90%;
+    margin-right: 20px;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tomorrowBlock {
+    background-color: rgb(238, 238, 238);
+    min-height: 100%;
+    width: 90%;
+    margin-right: 20px;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fridayBlock {
+    background-color: rgb(238, 238, 238);
+    min-height: 100%;
+    width: 90%;
+    margin-right: 20px;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.saturdayBlock {
+    background-color: rgb(238, 238, 238);
+    min-height: 100%;
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.weatherImg {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.some {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.temperatures {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    margin: 30px 0;
+}
+
+.highs {
+    width: 100%;
+    color:rgb(205, 44, 47)
+}
+
+.lows {
+    width: 100%;
+    color: rgb(48, 123, 225);
+}
+
+#cookies {
+    position: fixed;
+    bottom: 0px;
+    border: 3px solid black;
+    background-color: rgb(190, 190, 190);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 67%;
+    min-height: 100px;
+}
+
+#cookies img {
+    width: 80px;
+    margin: 30px;
+}
+
+#cookies span {
+    display: inline-block;
+    font-size: 1.3rem;
+}
+
+#cookies img {
+    display: inline-block;
+}
+
+#cookies button {
+    margin: 20px;
+    width: 100px;
+    background-color: rgb(161, 198, 246);
+    border: 2px solid black;
+    box-shadow: 3px 3px;
+}
+
+h3 {
+    font-size: 2rem;
+}
